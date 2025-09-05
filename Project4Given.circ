@@ -4643,6 +4643,11 @@
       <a name="label" val="NENA"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(590,620)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="FULL"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
     <comp lib="0" loc="(600,380)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="REG_EN"/>
@@ -4666,11 +4671,6 @@
     <comp lib="0" loc="(600,600)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="REG_EN"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(600,620)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="FULL"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(630,420)" name="Tunnel">
@@ -4719,6 +4719,7 @@
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(630,610)" name="AND Gate">
+      <a name="negate1" val="true"/>
       <a name="size" val="30"/>
     </comp>
     <comp lib="4" loc="(120,330)" name="Register">
