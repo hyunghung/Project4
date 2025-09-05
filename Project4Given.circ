@@ -4922,6 +4922,21 @@
       <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(330,380)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ENA"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(340,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Next_S"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(340,410)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
     <comp lib="0" loc="(370,110)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="RX"/>
@@ -4945,6 +4960,135 @@
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="output" val="true"/>
     </comp>
+    <comp lib="0" loc="(440,360)" name="Tunnel">
+      <a name="label" val="Current_S"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(450,310)" name="Splitter">
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(480,290)" name="Tunnel">
+      <a name="label" val="cs0"/>
+    </comp>
+    <comp lib="0" loc="(480,330)" name="Tunnel">
+      <a name="label" val="cs1"/>
+    </comp>
+    <comp lib="0" loc="(630,150)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Next_S"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(660,150)" name="Tunnel">
+      <a name="label" val="Current_S"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(830,300)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="TX"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(830,320)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="RX"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(830,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="TX"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(830,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="RX"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(830,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="DW"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(840,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ARBL"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(840,400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cs0"/>
+    </comp>
+    <comp lib="0" loc="(840,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cs1"/>
+    </comp>
+    <comp lib="0" loc="(840,490)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cs0"/>
+    </comp>
+    <comp lib="0" loc="(840,520)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cs1"/>
+    </comp>
+    <comp lib="0" loc="(870,140)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cs0"/>
+    </comp>
+    <comp lib="0" loc="(870,170)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="cs1"/>
+    </comp>
+    <comp lib="0" loc="(870,260)" name="Tunnel">
+      <a name="label" val="BITCMP"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(900,310)" name="Tunnel">
+      <a name="label" val="ARBL"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(930,190)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="DOUT"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(930,400)" name="Tunnel">
+      <a name="label" val="ns1"/>
+    </comp>
+    <comp lib="0" loc="(930,490)" name="Tunnel">
+      <a name="label" val="ns0"/>
+    </comp>
+    <comp lib="0" loc="(990,170)" name="Tunnel">
+      <a name="label" val="TX"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(870,260)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(880,360)" name="XOR Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(890,310)" name="XOR Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(920,150)" name="OR Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(920,400)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate2" val="true"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(920,490)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(970,170)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="4" loc="(350,330)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="width" val="2"/>
+    </comp>
     <wire from="(140,110)" to="(170,110)"/>
     <wire from="(140,130)" to="(170,130)"/>
     <wire from="(140,150)" to="(170,150)"/>
@@ -4952,8 +5096,50 @@
     <wire from="(140,90)" to="(170,90)"/>
     <wire from="(230,210)" to="(230,220)"/>
     <wire from="(280,210)" to="(280,220)"/>
+    <wire from="(330,380)" to="(350,380)"/>
+    <wire from="(340,350)" to="(350,350)"/>
+    <wire from="(340,400)" to="(340,410)"/>
+    <wire from="(340,400)" to="(350,400)"/>
+    <wire from="(350,350)" to="(350,360)"/>
     <wire from="(370,110)" to="(390,110)"/>
     <wire from="(370,90)" to="(390,90)"/>
+    <wire from="(410,360)" to="(430,360)"/>
+    <wire from="(430,310)" to="(430,360)"/>
+    <wire from="(430,310)" to="(450,310)"/>
+    <wire from="(430,360)" to="(440,360)"/>
+    <wire from="(470,290)" to="(470,300)"/>
+    <wire from="(470,290)" to="(480,290)"/>
+    <wire from="(470,310)" to="(470,330)"/>
+    <wire from="(470,330)" to="(480,330)"/>
+    <wire from="(630,150)" to="(660,150)"/>
+    <wire from="(830,300)" to="(850,300)"/>
+    <wire from="(830,320)" to="(850,320)"/>
+    <wire from="(830,350)" to="(840,350)"/>
+    <wire from="(830,370)" to="(840,370)"/>
+    <wire from="(830,460)" to="(860,460)"/>
+    <wire from="(840,260)" to="(850,260)"/>
+    <wire from="(840,400)" to="(890,400)"/>
+    <wire from="(840,430)" to="(850,430)"/>
+    <wire from="(840,490)" to="(880,490)"/>
+    <wire from="(840,520)" to="(880,520)"/>
+    <wire from="(850,410)" to="(850,430)"/>
+    <wire from="(850,410)" to="(880,410)"/>
+    <wire from="(860,460)" to="(860,480)"/>
+    <wire from="(860,480)" to="(890,480)"/>
+    <wire from="(870,140)" to="(890,140)"/>
+    <wire from="(870,170)" to="(890,170)"/>
+    <wire from="(880,360)" to="(880,390)"/>
+    <wire from="(880,390)" to="(890,390)"/>
+    <wire from="(880,500)" to="(880,520)"/>
+    <wire from="(890,160)" to="(890,170)"/>
+    <wire from="(890,310)" to="(900,310)"/>
+    <wire from="(920,150)" to="(940,150)"/>
+    <wire from="(920,400)" to="(930,400)"/>
+    <wire from="(920,490)" to="(930,490)"/>
+    <wire from="(930,190)" to="(940,190)"/>
+    <wire from="(940,150)" to="(940,160)"/>
+    <wire from="(940,180)" to="(940,190)"/>
+    <wire from="(970,170)" to="(990,170)"/>
   </circuit>
   <circuit name="VPWBObserver">
     <a name="appearance" val="custom"/>
@@ -5299,51 +5485,51 @@
       <a name="appearance" val="logisim_evolution"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="8" loc="(269,282)" name="Text">
+    <comp lib="8" loc="(265,280)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Shift Register "/>
     </comp>
-    <comp lib="8" loc="(285,633)" name="Text">
+    <comp lib="8" loc="(285,630)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="State + RX"/>
     </comp>
-    <comp lib="8" loc="(567,715)" name="Text">
+    <comp lib="8" loc="(565,715)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Next State"/>
     </comp>
-    <comp lib="8" loc="(574,788)" name="Text">
+    <comp lib="8" loc="(570,785)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Current State"/>
     </comp>
-    <comp lib="8" loc="(64,821)" name="Text">
+    <comp lib="8" loc="(60,820)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="IDLE - 000"/>
     </comp>
-    <comp lib="8" loc="(71,834)" name="Text">
+    <comp lib="8" loc="(70,830)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="B0 - 0 after 1"/>
     </comp>
-    <comp lib="8" loc="(72,873)" name="Text">
+    <comp lib="8" loc="(70,870)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="B1 - 1 after 0"/>
     </comp>
-    <comp lib="8" loc="(76,925)" name="Text">
+    <comp lib="8" loc="(75,925)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="E0 - 0 from E1"/>
     </comp>
-    <comp lib="8" loc="(83,860)" name="Text">
+    <comp lib="8" loc="(80,860)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="B00 - 2 0 since 1"/>
     </comp>
-    <comp lib="8" loc="(83,893)" name="Text">
+    <comp lib="8" loc="(80,890)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="B11 - 2 1 since 0"/>
     </comp>
-    <comp lib="8" loc="(83,937)" name="Text">
+    <comp lib="8" loc="(80,935)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="E00 - 2 0 from E1"/>
     </comp>
-    <comp lib="8" loc="(89,909)" name="Text">
+    <comp lib="8" loc="(85,905)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="E1 - 3 1 since 0/1 from E"/>
     </comp>
