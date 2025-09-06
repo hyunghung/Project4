@@ -101,7 +101,9 @@
       <a name="output" val="true"/>
     </tool>
     <sep/>
-    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </tool>
     <tool lib="1" name="AND Gate"/>
     <tool lib="1" name="OR Gate"/>
     <tool lib="1" name="XOR Gate"/>
@@ -4346,11 +4348,6 @@
       <a name="label" val="EMPTY"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(260,350)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="READ"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
     <comp lib="0" loc="(290,250)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="ENA"/>
@@ -4358,11 +4355,6 @@
     </comp>
     <comp lib="0" loc="(290,270)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="facing" val="north"/>
-      <a name="label" val="ENA"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(290,400)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ENA"/>
       <a name="labelfont" val="SansSerif bold 12"/>
@@ -4379,11 +4371,6 @@
       <a name="label" val="CARE"/>
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(330,400)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CLK"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(340,250)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -4420,55 +4407,46 @@
       <a name="label" val="SER_IN"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(540,490)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="FULL"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(610,500)" name="Tunnel">
+    <comp lib="0" loc="(570,460)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ENA"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(620,400)" name="Tunnel">
+    <comp lib="0" loc="(570,630)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ENA"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(650,400)" name="Tunnel">
+    <comp lib="0" loc="(610,460)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(650,500)" name="Tunnel">
+    <comp lib="0" loc="(610,630)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(760,350)" name="Tunnel">
-      <a name="label" val="SER_IN"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
+    <comp lib="8" loc="(605,385)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="TX FIFO"/>
     </comp>
-    <comp lib="0" loc="(760,450)" name="Tunnel">
-      <a name="label" val="FRAME_OUT"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-      <a name="width" val="12"/>
+    <comp lib="8" loc="(606,561)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="RX FIFO"/>
     </comp>
-    <comp lib="0" loc="(760,490)" name="Tunnel">
-      <a name="label" val="EMPTY"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="8" loc="(762,59)" name="Text">
+    <comp lib="8" loc="(760,55)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Outputs: FRAME_OUT, FULL, EMPTY"/>
     </comp>
-    <comp lib="8" loc="(799,40)" name="Text">
+    <comp lib="8" loc="(795,40)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Inputs: SER_IN, CLK, ENA, READ, CARE, ADDR"/>
     </comp>
-    <comp loc="(480,350)" name="VPWBSRI"/>
-    <comp loc="(760,350)" name="VPWBObserver"/>
-    <comp loc="(760,450)" name="VPWBFrameQueue"/>
+    <comp loc="(330,470)" name="VPWBSRI"/>
+    <comp loc="(720,220)" name="VPWBObserver"/>
+    <comp loc="(720,410)" name="VPWBFrameQueue"/>
+    <comp loc="(720,580)" name="VPWBFrameQueue"/>
     <wire from="(180,100)" to="(200,100)"/>
     <wire from="(180,150)" to="(200,150)"/>
     <wire from="(180,180)" to="(200,180)"/>
@@ -4477,12 +4455,7 @@
     <wire from="(300,60)" to="(300,70)"/>
     <wire from="(340,250)" to="(340,270)"/>
     <wire from="(350,60)" to="(350,70)"/>
-    <wire from="(390,400)" to="(390,450)"/>
-    <wire from="(390,450)" to="(540,450)"/>
-    <wire from="(480,350)" to="(510,350)"/>
     <wire from="(490,90)" to="(510,90)"/>
-    <wire from="(510,350)" to="(510,390)"/>
-    <wire from="(510,390)" to="(540,390)"/>
   </circuit>
   <circuit name="VPWBFrameQueue">
     <a name="appearance" val="custom"/>
@@ -5245,15 +5218,15 @@
       <a name="ongoal" val="stay"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="8" loc="(106,655)" name="Text">
+    <comp lib="8" loc="(105,655)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Keeps track of where to ENQ"/>
     </comp>
-    <comp lib="8" loc="(129,831)" name="Text">
+    <comp lib="8" loc="(125,830)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Keeps track of where to overwrite "/>
     </comp>
-    <comp lib="8" loc="(357,289)" name="Text">
+    <comp lib="8" loc="(355,285)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Head of the Q"/>
     </comp>
