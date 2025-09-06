@@ -4225,6 +4225,11 @@
       <a name="label" val="IDLE"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(290,530)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="ENA"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
     <comp lib="0" loc="(300,240)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="ENA"/>
@@ -4234,6 +4239,11 @@
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
       <a name="label" val="ENA"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(330,530)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(350,240)" name="Tunnel">
@@ -4270,6 +4280,30 @@
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="output" val="true"/>
     </comp>
+    <comp lib="0" loc="(570,620)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="ENA"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(610,620)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(640,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="ENA"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(670,440)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp loc="(440,460)" name="VPWBSRO"/>
+    <comp loc="(720,570)" name="VPWBFrameQueue"/>
+    <comp loc="(770,250)" name="VPWBObserver"/>
+    <comp loc="(780,350)" name="VPWBArbiter"/>
     <wire from="(180,100)" to="(200,100)"/>
     <wire from="(180,150)" to="(200,150)"/>
     <wire from="(180,180)" to="(200,180)"/>
@@ -4476,16 +4510,6 @@
       <a name="label" val="DISCARD"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(630,520)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(660,530)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="DISCARD"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
     <comp lib="0" loc="(750,460)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ENA"/>
@@ -4636,9 +4660,6 @@
       <a name="negate0" val="true"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="4" loc="(640,470)" name="D Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
-    </comp>
     <comp lib="8" loc="(415,600)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="RX FIFO"/>
@@ -4685,17 +4706,11 @@
     <wire from="(530,450)" to="(540,450)"/>
     <wire from="(540,450)" to="(540,460)"/>
     <wire from="(570,430)" to="(570,450)"/>
-    <wire from="(570,450)" to="(590,450)"/>
+    <wire from="(570,450)" to="(670,450)"/>
     <wire from="(580,410)" to="(580,430)"/>
     <wire from="(580,430)" to="(670,430)"/>
     <wire from="(590,380)" to="(590,410)"/>
     <wire from="(590,410)" to="(670,410)"/>
-    <wire from="(590,450)" to="(590,560)"/>
-    <wire from="(590,560)" to="(710,560)"/>
-    <wire from="(630,450)" to="(630,480)"/>
-    <wire from="(630,450)" to="(670,450)"/>
-    <wire from="(690,480)" to="(710,480)"/>
-    <wire from="(710,480)" to="(710,560)"/>
     <wire from="(780,600)" to="(780,620)"/>
     <wire from="(780,600)" to="(870,600)"/>
     <wire from="(790,650)" to="(790,660)"/>
