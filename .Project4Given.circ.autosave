@@ -4291,11 +4291,6 @@
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="width" val="12"/>
     </comp>
-    <comp lib="0" loc="(200,1020)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="frame_Done"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
     <comp lib="0" loc="(200,150)" name="Tunnel">
       <a name="label" val="WRITE"/>
       <a name="labelfont" val="SansSerif bold 12"/>
@@ -4417,6 +4412,11 @@
     <comp lib="0" loc="(570,450)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="OBSDIN"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(570,470)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="New_Bit"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
     <comp lib="0" loc="(580,520)" name="Tunnel">
@@ -4735,8 +4735,6 @@
     <wire from="(180,820)" to="(210,820)"/>
     <wire from="(180,920)" to="(180,1060)"/>
     <wire from="(180,920)" to="(210,920)"/>
-    <wire from="(200,990)" to="(200,1020)"/>
-    <wire from="(200,990)" to="(210,990)"/>
     <wire from="(250,810)" to="(390,810)"/>
     <wire from="(250,860)" to="(420,860)"/>
     <wire from="(250,910)" to="(420,910)"/>
