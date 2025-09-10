@@ -110,7 +110,7 @@
       <a name="facing" val="north"/>
     </tool>
     <tool lib="1" name="OR Gate">
-      <a name="facing" val="north"/>
+      <a name="facing" val="west"/>
     </tool>
     <tool lib="1" name="XOR Gate"/>
     <tool lib="1" name="NAND Gate"/>
@@ -5505,6 +5505,10 @@
       <a name="label" val="EMPTY"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
+    <comp lib="0" loc="(560,460)" name="Tunnel">
+      <a name="label" val="DISCARD"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
     <comp lib="0" loc="(750,460)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ENA"/>
@@ -5640,6 +5644,10 @@
       <a name="negate1" val="true"/>
       <a name="size" val="30"/>
     </comp>
+    <comp lib="1" loc="(530,450)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+    </comp>
     <comp lib="1" loc="(780,620)" name="AND Gate">
       <a name="facing" val="north"/>
       <a name="negate0" val="true"/>
@@ -5701,10 +5709,10 @@
     <wire from="(490,90)" to="(510,90)"/>
     <wire from="(530,410)" to="(540,410)"/>
     <wire from="(530,430)" to="(650,430)"/>
-    <wire from="(530,450)" to="(640,450)"/>
     <wire from="(540,410)" to="(540,420)"/>
     <wire from="(540,420)" to="(660,420)"/>
-    <wire from="(640,410)" to="(640,450)"/>
+    <wire from="(560,440)" to="(640,440)"/>
+    <wire from="(640,410)" to="(640,440)"/>
     <wire from="(640,410)" to="(670,410)"/>
     <wire from="(650,430)" to="(650,450)"/>
     <wire from="(650,450)" to="(670,450)"/>
